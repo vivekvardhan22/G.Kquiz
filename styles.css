@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#searchInput {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#searchButton {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#resultsContainer {
+  margin: 20px;
+}
+
+#videoPlayer {
+  margin: 20px;
+}
