@@ -1,0 +1,37 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>General Knowledge Quiz</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>General Knowledge Quiz</h1>
+    <div id="quiz">
+      <div id="question"></div>
+      <div id="options">
+        <label>
+          <input type="radio" name="answer" value="option1">
+          <span id="option1"></span>
+        </label>
+        <label>
+          <input type="radio" name="answer" value="option2">
+          <span id="option2"></span>
+        </label>
+        <label>
+          <input type="radio" name="answer" value="option3">
+          <span id="option3"></span>
+        </label>
+        <label>
+          <input type="radio" name="answer" value="option4">
+          <span id="option4"></span>
+        </label>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <div id="score"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
