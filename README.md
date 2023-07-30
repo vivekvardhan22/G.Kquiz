@@ -1,2 +1,2 @@
 # G.Kquiz
-A web app that lets the user search and watch videos from YouTube or other platforms from internet
+A web app that lets the user play General Knowledge quiz game with computer.
